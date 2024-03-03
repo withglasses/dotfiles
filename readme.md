@@ -2,11 +2,11 @@
 
 ### Extensions
 
-1. JetBrains Icons Theme
-2. Bearded Theme
-3. Fluent Icons
-4. Live Server (Five server)
-5. Prettier - Code formatter
+1. JetBrains Icons Theme - icons theme
+2. Flate - Theme
+3. Fluent Icons - icons theme which replaces the default product icons on vscode
+4. Live Server (Five server) - Live Server which can open 5 servers
+5. Prettier Code formatter - best tool for formatting code
 
 ### Config
 
@@ -22,7 +22,7 @@
 
 	// Editor settings
 	"editor.tabSize": 2,
-	"editor.folding": false,
+	"editor.folding": true,
 	"editor.insertSpaces": false,
 	"editor.smoothScrolling": true,
 	"editor.minimap.enabled": false,
@@ -50,7 +50,7 @@
 	},
 
 	//Terminal
-	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+	"terminal.integrated.fontFamily": "JetBrains Mono",
 	"terminal.integrated.fontSize": 15,
 	"terminal.integrated.tabs.enabled": false,
 
@@ -138,11 +138,13 @@
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
+	"editor.formatOnPaste": false,
 	"prettier.singleQuote": true,
 	"prettier.jsxSingleQuote": true,
 	"prettier.arrowParens": "avoid",
-	"workbench.colorTheme": "Bearded Theme feat. Will"
+	"workbench.colorTheme": "Flate",
+	"workbench.sideBar.location": "right",
+	"tabnine.experimentalAutoImports": true
 }
 ```
 
